@@ -1,0 +1,25 @@
+
+.headline-color{
+  color: #A87C5F;
+}
+
+.text-color{
+    color: #CCCCCC;
+}
+
+.navBg{
+    background-color: #1A1A1A;
+}
+
+.primaryButton{
+    background-color: #A87C5F;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    /* font-weight: bold; */
+    transition: background-color 0.3s ease;
+
+}
