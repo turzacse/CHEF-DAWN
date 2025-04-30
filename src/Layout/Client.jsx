@@ -7,7 +7,7 @@ const Client = () => {
     return (
         <div>
             <Navbar />
-            <div className='bg-[#0F0F0F] text-color'>
+            <div className='bg-[#0F0F0F] text-color min-h-screen pt-10'>
                 <Outlet />
             </div>
             <Footer />

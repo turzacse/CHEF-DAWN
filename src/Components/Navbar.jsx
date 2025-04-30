@@ -22,11 +22,11 @@ export default function Navbar() {
         </div>
         <ul className="hidden md:flex space-x-6 text-white font-medium">
           <li><Link to="/">Home</Link></li>
-          {/* <li><Link to="/about">About the Chef</Link></li>
+          <li><Link to="/about">About the Chef</Link></li>
           <li><Link to="/products">Products</Link></li>
-          <li><Link to="/dishes">Signature Dishes</Link></li>
+          <li><Link to="/signature-dishes">Signature Dishes</Link></li>
           <li><Link to="/gallery">Gallery</Link></li>
-          <li><Link to="/contact">Contact</Link></li> */}
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
 
@@ -35,11 +35,11 @@ export default function Navbar() {
         <div className="md:hidden navBg px-4 pb-4">
           <ul className="space-y-2 text-white font-medium">
             <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
-            {/* <li><Link to="/about" onClick={() => setIsOpen(false)}>About the Chef</Link></li>
+            <li><Link to="/about" onClick={() => setIsOpen(false)}>About the Chef</Link></li>
             <li><Link to="/products" onClick={() => setIsOpen(false)}>Products</Link></li>
-            <li><Link to="/dishes" onClick={() => setIsOpen(false)}>Signature Dishes</Link></li>
+            <li><Link to="/signature-dishes" onClick={() => setIsOpen(false)}>Signature Dishes</Link></li>
             <li><Link to="/gallery" onClick={() => setIsOpen(false)}>Gallery</Link></li>
-            <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li> */}
+            <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
           </ul>
         </div>
       )}
